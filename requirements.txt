@@ -5,3 +5,5 @@ passlib
 sqlalchemy
 asyncpg
 databases
+psycopg2
+pymysql

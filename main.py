@@ -4,6 +4,9 @@ from typing import Annotated
 import models
 from database import engine,SessionLocal,Base
 from sqlalchemy.orm import Session
+import os
+from database import database_db
+
 
 app=FastAPI()
 Base.metadata.create_all(bind=engine)
